@@ -14,5 +14,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: 22
-        source: "tes/"
+        source: "tes/*"
         target: /var/www/html/
