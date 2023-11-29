@@ -16,3 +16,4 @@ jobs:
         port: 22
         source: "tes/*"
         target: /var/www/html/
+        timeout: 120s
